@@ -1,0 +1,26 @@
+.authImage{
+    margin-left: auto;
+    margin-right: auto;
+    width: 476px;
+    height:500px;
+}
+
+.books{
+    height: 80px;
+    background-color: rgb(200, 237, 241);
+    text-align: left;
+    padding: 20px;
+    border-left: 8px solid rgb(134, 183, 248);
+    margin: 15px;
+}
+.books:hover{
+    background-color: rgb(103, 192, 233);
+    border-left: 8px solid rgb(73, 149, 248);
+}
+.turn{
+    padding: 30px;
+}
+.list{
+    padding: 2rem;
+    margin-left: 6rem;
+}
