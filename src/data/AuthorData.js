@@ -3,11 +3,11 @@ export const dataList = {
         {
             name: "A.P.J. Abdul Kalam",
             imgUrl:"img/apj.jpg", 
-            books: ["Wings of Fire","The Discovery of India","The Odyssey","In Search of Lost Time "]
+            books: ["Wings of Fire"]
         }, {
             name: "Jawaharlal Nehru",
             imgUrl:"img/Jnehru.jpg",
-            books: ["The Discovery of India","One Hundred Years of Solitude ","War and Peace","Malgudi days"]
+            books: ["The Discovery of India"]
         },
         {
             name: "R.K.Narayanan",

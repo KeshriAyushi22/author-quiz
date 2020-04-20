@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import AuthorQuiz from './Components/AuthorQuiz';
 import * as serviceWorker from './serviceWorker';
-import {dataList} from "./data/AuthorData"
+
 /*--code using jsx--*/
 ReactDOM.render(
  
   <React.StrictMode>
-    <AuthorQuiz dataList={dataList}/>
+    <AuthorQuiz />
   </React.StrictMode>,
   document.getElementById('root')
 );
