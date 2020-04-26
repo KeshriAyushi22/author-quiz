@@ -21,7 +21,7 @@ export default class AuthorQuiz extends Component {
     return (
       <div className="container-fluid">
         <Header />
-        <MainPage author={turnData.author} books={turnData.books} />
+        <MainPage author={turnData.author} books={turnData.books} correctAnswer={turnData.correctAnswer} />
         <NextPage />
         <Footer />
 
@@ -44,16 +44,17 @@ function getMainPageData(authors) {
   const fourRandomBooks= shuffle(allBooks).slice(0,4);
 
   /*Select any random value and with that value select the picture for correct answer*/
-  console.log(sample(fourRandomBooks))
     const correctAnswer=sample(fourRandomBooks)
 
    /*To find the author of the book we need to use find function and then use some method to get the matching data.*/ 
  
   return{
     books:fourRandomBooks,
+    correctAnswer:correctAnswer,
     author: authors.find(author=>
       author.books.some((title)=>
                      title===correctAnswer)
+   
     )
   
   }

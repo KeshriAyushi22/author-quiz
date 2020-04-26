@@ -5,13 +5,14 @@ import AuthorQuiz from './Components/AuthorQuiz';
 import * as serviceWorker from './serviceWorker';
 
 /*--code using jsx--*/
-ReactDOM.render(
- 
+export function render(){
+  ReactDOM.render(
   <React.StrictMode>
     <AuthorQuiz />
   </React.StrictMode>,
   document.getElementById('root')
-);
+)}
+render();
 
 
 /*--pure code using js--*/
